@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Keania+One&family=Kelly+Slab&family=Khula:wght@300&family=Manrope:wght@300;500&family=Roboto:ital,wght@0,300;0,500;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Dosis:wght@200&family=Keania+One&family=Kelly+Slab&family=Khula:wght@300&family=Manrope:wght@300;500&family=Roboto:ital,wght@0,300;0,500;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Dosis:wght@200&family=Keania+One&family=Kelly+Slab&family=Khula:wght@300&family=Manrope:wght@300;500&family=Roboto:ital,wght@0,300;0,500;1,900&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250vh;
+    background: url('img/burger_hamburger_buns.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 45px;
+    box-shadow: 0px 4px 50px 0px #000;
+    top: 10px;
+    left: 10px;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 2px 0;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+nav.navbar {
+    margin-top: 10px;
+    margin-bottom: 1418px;
+    margin-left: 0px;
+    margin-right: 93px;
+    }
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+    top: 2px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(181, 181, 181);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #eb7d00;
+}
+
+.login {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    top: 75px;
+    right: 50px;
+    font-size: 20px;
+}
+.signin {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: -13px;
+    margin-left: -12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}    
+
+.signin a {
+    color: #bcb8b6;
+}
+
+.login .orderbtn {
+    font-family: 'Keania One', cursive;
+    font-size: 15px;
+    background: orangered;
+    color: beige;
+    height: 70px;
+    width: 220px;
+    border: 0;
+    border-radius: 30px;
+    margin-top: -20px;
+    box-shadow: goldenrod;
+    cursor: pointer;
+}
+
+.about {
+    position: absolute;
+    left: 25px;
+    top: 200px;
+    color: aliceblue;
+
+}
+
+.about h1,
+.about p,
+.about h4 {
+
+    color: #fff;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about h1 {
+    font-size: 55px;
+}
+
+.about p {
+    font-size: 30px;
+}
+
+.about h4 {
+    font-size: 15px;
+}
+
+.viewmenu {
+    position: absolute;
+    justify-content: space-between;
+    top: 560px;
+    left: 25px;
+
+}
+
+.viewmenu .Ordernbtn {
+
+    height: 70px;
+    width: 170px;
+    border-radius: 60px;
+    font-family: 'Keania One', cursive;
+    font-size: 20px;
+    background: #F34900;
+    color: #fff;
+    border: 0;
+    left: 15px;
+    top: 150px;
+    cursor: pointer;
+}
+
+.viewmenu>a:nth-child(2) {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #bcb8b6;
+}
+
+.offers1 {
+    position: absolute;
+    top: 700px;
+    justify-content: space-between;
+
+}
+
+.offers1 img {
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.offers1>img:nth-child(1) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img.offer1:nth-child(3) {
+    margin-left: 15px;
+}
+
+.offers2 {
+    position: absolute;
+    top: 1050px;
+    justify-content: space-between;
+}
+
+.offers2 img {
+    border-radius: 20px;
+}
+
+.offers2>img:nth-child(1) {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.offers2>img:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
