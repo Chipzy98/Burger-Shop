@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 250vh;
-    background: url('img/burger_hamburger_buns.jpg') no-repeat;
+    background: url('img/burger_hamburger_buns.jpg');
     background-size: cover;
     background-position: center;
 }
